@@ -1,6 +1,126 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head><title>BEON UX INTERFACE</title></head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BEON UX INTERFACE</title>
+</head>
 <!-- Crevado data download for eduard.crevado.com - dumped at January 12, 2026 07:53 UTC -->
-<style>footer,figure,img,video {display:block} article, footer, header, nav, figure { margin: 16px 40px; } img {max-width:100%; max-height:100%; }body{font-family: sans-serif,arial; }header { text-align: center; }header img { margin:30px auto; max-width: 50%; max-height: 250px; display:inline-block;}nav { max-width: 80%; margin: 15px auto 30px; }nav li+li { margin-left: 20px; } nav li { display: inline-block; }figure img {max-width: 95%; max-height: 95vh; width: auto; height: auto; }</style><body>
-<header><h1><img src="assets/37751cbc65f1f265ab77d180f4690955.png" alt="EDUARD SHIDRIKOV" title="EDUARD SHIDRIKOV" /></h1></header><nav><ul><li><a href="your-account-info.html">Account Info</a></li><li><a href="about.html">ABOUT</a></li><li><a href="index.html">DESIGN SUITE</a></li><li><a href="360-robotech.html">360° ROBOTECH</a></li><li><a href="colibri-ecosystem.html">COLIBRI ECOSYSTEM</a></li><li>BEON UX INTERFACE</li><li><a href="maxtraction-mix.html">MAXTRACTION MIX</a></li><li><a href="logo-lab.html">LOGO LAB</a></li><li><a href="3d-spectrum.html">3D SPECTRUM</a></li><li><a href="tv-motion.html">TV MOTION</a></li><li><a href="pack-design.html">PACK DESIGN</a></li><li><a href="print-factory.html">PRINT FACTORY</a></li><li><a href="promo-design.html">PROMO DESIGN</a></li><li><a href="exhibitions.html">EXHIBITIONS</a></li><li><a href="ai-mastery.html">AI MASTERY</a></li><li><a href="pumpsite-platform.html">PUMPSITE PLATFORM</a></li><li><a href="ejector-universe.html">EJECTOR UNIVERSE</a></li></ul></nav><article class="custom-content"><p>UX/UI терминалов электрозарядных станций BEON. Пошаговые сценарии зарядки, визуализация процесса, авторизация пользователей, 3D-элементы. Интуитивная навигация для сенсорных экранов.</p></article><figure><a href="assets/beon-ux-interface/8baf721a31d1e8f138f30a773ca15e4b.jpg"><img src="assets/beon-ux-interface/8baf721a31d1e8f138f30a773ca15e4b.jpg" /></a></figure><figure><a href="assets/beon-ux-interface/08324aef6125f296059b7487d533925c.mp4"><video controls="controls"><source src="assets/beon-ux-interface/08324aef6125f296059b7487d533925c.mp4" type="video/mp4" /></video></a></figure><figure><a href="assets/beon-ux-interface/4ce0b40cee8ec4a52f0193f4d726af67.mp4"><video controls="controls"><source src="assets/beon-ux-interface/4ce0b40cee8ec4a52f0193f4d726af67.mp4" type="video/mp4" /></video></a></figure><figure><a href="assets/beon-ux-interface/d59ce5a1611996a3ecd20bf788d3226b.jpg"><img src="assets/beon-ux-interface/d59ce5a1611996a3ecd20bf788d3226b.jpg" /></a></figure><figure><a href="assets/beon-ux-interface/19887d9cfe3a0a8e4ed8072c1ba4baa2.jpg"><img src="assets/beon-ux-interface/19887d9cfe3a0a8e4ed8072c1ba4baa2.jpg" /></a></figure><figure><a href="assets/beon-ux-interface/df4f8da2b733c8bef8984fab2af342f5.jpg"><img src="assets/beon-ux-interface/df4f8da2b733c8bef8984fab2af342f5.jpg" /></a></figure><figure><a href="assets/beon-ux-interface/772327ec1b5221cf1963dd38b871b76a.jpg"><img src="assets/beon-ux-interface/772327ec1b5221cf1963dd38b871b76a.jpg" /></a></figure><figure><a href="assets/beon-ux-interface/e0823ab291a24f37ab61ab8003757440.jpg"><img src="assets/beon-ux-interface/e0823ab291a24f37ab61ab8003757440.jpg" /></a></figure><figure><a href="assets/beon-ux-interface/2a8f3a6beebe3db12948334a8a25703b.jpg"><img src="assets/beon-ux-interface/2a8f3a6beebe3db12948334a8a25703b.jpg" /></a></figure></body></html>
+<style>
+  footer,figure,img,video {display:block}
+  article, footer, header, nav, figure { margin: 16px 40px; }
+  img {max-width:100%; max-height:100%; }
+  body{font-family: sans-serif,arial; }
+  header { text-align: center; }
+  header img { margin:30px auto; max-width: 50%; max-height: 250px; display:inline-block;}
+  nav { max-width: 80%; margin: 15px auto 30px; }
+  nav li+li { margin-left: 20px; }
+  nav li { display: inline-block; }
+
+  /* media sizing */
+  figure img {max-width: 95%; max-height: 95vh; width: auto; height: auto; }
+  figure video {max-width: 95%; max-height: 95vh; width: auto; height: auto; }
+
+  /* clickable logo hint */
+  header a{display:inline-block}
+  header a img{cursor:pointer; user-select:none; -webkit-user-drag:none}
+  header a:hover{opacity:.95}
+
+  /* hide Crevado service link */
+  nav a[href*="your-account-info"], nav a[href*="account-info"]{display:none}
+</style>
+
+<body>
+<header>
+  <h1>
+    <a href="./" aria-label="Home">
+      <img src="assets/37751cbc65f1f265ab77d180f4690955.png" alt="EDUARD SHIDRIKOV" title="EDUARD SHIDRIKOV" />
+    </a>
+  </h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="your-account-info.html">Account Info</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="index.html">DESIGN SUITE</a></li>
+    <li><a href="360-robotech.html">360° ROBOTECH</a></li>
+    <li><a href="colibri-ecosystem.html">COLIBRI ECOSYSTEM</a></li>
+    <li>BEON UX INTERFACE</li>
+    <li><a href="maxtraction-mix.html">MAXTRACTION MIX</a></li>
+    <li><a href="logo-lab.html">LOGO LAB</a></li>
+    <li><a href="3d-spectrum.html">3D SPECTRUM</a></li>
+    <li><a href="tv-motion.html">TV MOTION</a></li>
+    <li><a href="pack-design.html">PACK DESIGN</a></li>
+    <li><a href="print-factory.html">PRINT FACTORY</a></li>
+    <li><a href="promo-design.html">PROMO DESIGN</a></li>
+    <li><a href="exhibitions.html">EXHIBITIONS</a></li>
+    <li><a href="ai-mastery.html">AI MASTERY</a></li>
+    <li><a href="pumpsite-platform.html">PUMPSITE PLATFORM</a></li>
+    <li><a href="ejector-universe.html">EJECTOR UNIVERSE</a></li>
+  </ul>
+</nav>
+
+<article class="custom-content">
+  <p>
+    UX/UI терминалов электрозарядных станций BEON. Пошаговые сценарии зарядки, визуализация процесса, авторизация пользователей, 3D-элементы. Интуитивная навигация для сенсорных экранов.
+  </p>
+</article>
+
+<figure>
+  <a href="assets/beon-ux-interface/8baf721a31d1e8f138f30a773ca15e4b.jpg">
+    <img src="assets/beon-ux-interface/8baf721a31d1e8f138f30a773ca15e4b.jpg" />
+  </a>
+</figure>
+
+<!-- looped animations (was gif -> mp4): no <a>, autoplay + loop -->
+<figure>
+  <video autoplay loop muted playsinline preload="metadata">
+    <source src="assets/beon-ux-interface/08324aef6125f296059b7487d533925c.mp4" type="video/mp4" />
+  </video>
+</figure>
+
+<figure>
+  <video autoplay loop muted playsinline preload="metadata">
+    <source src="assets/beon-ux-interface/4ce0b40cee8ec4a52f0193f4d726af67.mp4" type="video/mp4" />
+  </video>
+</figure>
+
+<figure>
+  <a href="assets/beon-ux-interface/d59ce5a1611996a3ecd20bf788d3226b.jpg">
+    <img src="assets/beon-ux-interface/d59ce5a1611996a3ecd20bf788d3226b.jpg" />
+  </a>
+</figure>
+
+<figure>
+  <a href="assets/beon-ux-interface/19887d9cfe3a0a8e4ed8072c1ba4baa2.jpg">
+    <img src="assets/beon-ux-interface/19887d9cfe3a0a8e4ed8072c1ba4baa2.jpg" />
+  </a>
+</figure>
+
+<figure>
+  <a href="assets/beon-ux-interface/df4f8da2b733c8bef8984fab2af342f5.jpg">
+    <img src="assets/beon-ux-interface/df4f8da2b733c8bef8984fab2af342f5.jpg" />
+  </a>
+</figure>
+
+<figure>
+  <a href="assets/beon-ux-interface/772327ec1b5221cf1963dd38b871b76a.jpg">
+    <img src="assets/beon-ux-interface/772327ec1b5221cf1963dd38b871b76a.jpg" />
+  </a>
+</figure>
+
+<figure>
+  <a href="assets/beon-ux-interface/e0823ab291a24f37ab61ab8003757440.jpg">
+    <img src="assets/beon-ux-interface/e0823ab291a24f37ab61ab8003757440.jpg" />
+  </a>
+</figure>
+
+<figure>
+  <a href="assets/beon-ux-interface/2a8f3a6beebe3db12948334a8a25703b.jpg">
+    <img src="assets/beon-ux-interface/2a8f3a6beebe3db12948334a8a25703b.jpg" />
+  </a>
+</figure>
+
+</body>
+</html>
